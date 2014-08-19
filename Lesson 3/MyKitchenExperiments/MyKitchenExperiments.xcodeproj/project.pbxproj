@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB1045C019A139E900CC97F3 /* YCRecipeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1045BF19A139E900CC97F3 /* YCRecipeDetailViewController.m */; };
+		CB1045C319A2912800CC97F3 /* YCWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1045C219A2912800CC97F3 /* YCWebViewController.m */; };
+		CB1E839019A05CD6008E2E8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1E838F19A05CD6008E2E8E /* Foundation.framework */; };
+		CB1E839219A05CD6008E2E8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1E839119A05CD6008E2E8E /* CoreGraphics.framework */; };
+		CB1E839419A05CD6008E2E8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1E839319A05CD6008E2E8E /* UIKit.framework */; };
+		CB1E839A19A05CD6008E2E8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB1E839819A05CD6008E2E8E /* InfoPlist.strings */; };
+		CB1E839C19A05CD6008E2E8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1E839B19A05CD6008E2E8E /* main.m */; };
+		CB1E83A019A05CD6008E2E8E /* YCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1E839F19A05CD6008E2E8E /* YCAppDelegate.m */; };
+		CB1E83A319A05CD6008E2E8E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1E83A119A05CD6008E2E8E /* Main_iPhone.storyboard */; };
+		CB1E83A619A05CD6008E2E8E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1E83A419A05CD6008E2E8E /* Main_iPad.storyboard */; };
+		CB1E83A919A05CD6008E2E8E /* YCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1E83A819A05CD6008E2E8E /* YCViewController.m */; };
+		CB1E83AB19A05CD6008E2E8E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB1E83AA19A05CD6008E2E8E /* Images.xcassets */; };
+		CB1E83B219A05CD6008E2E8E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1E83B119A05CD6008E2E8E /* XCTest.framework */; };
+		CB1E83B319A05CD6008E2E8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1E838F19A05CD6008E2E8E /* Foundation.framework */; };
+		CB1E83B419A05CD6008E2E8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1E839319A05CD6008E2E8E /* UIKit.framework */; };
+		CB1E83BC19A05CD6008E2E8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB1E83BA19A05CD6008E2E8E /* InfoPlist.strings */; };
+		CB1E83BE19A05CD6008E2E8E /* MyKitchenExperimentsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1E83BD19A05CD6008E2E8E /* MyKitchenExperimentsTests.m */; };
+		CB1E83C919A05E16008E2E8E /* YCRecipeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1E83C819A05E16008E2E8E /* YCRecipeTableViewCell.m */; };
+		CB1E83CC19A12867008E2E8E /* YCRecipeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1E83CB19A12867008E2E8E /* YCRecipeModel.m */; };
+		CB1E83CF19A12930008E2E8E /* YCRecipeCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1E83CE19A12930008E2E8E /* YCRecipeCollection.m */; };
+		CB1E83D619A13109008E2E8E /* cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB1E83D119A13109008E2E8E /* cake.jpg */; };
+		CB1E83D719A13109008E2E8E /* pennePasta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB1E83D219A13109008E2E8E /* pennePasta.jpg */; };
+		CB1E83D819A13109008E2E8E /* salad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB1E83D319A13109008E2E8E /* salad.jpg */; };
+		CB1E83D919A13109008E2E8E /* vegetableSoup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB1E83D419A13109008E2E8E /* vegetableSoup.jpg */; };
+		CB1E83DA19A13109008E2E8E /* watermelonLemonade.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB1E83D519A13109008E2E8E /* watermelonLemonade.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB1E83B519A05CD6008E2E8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB1E838419A05CD6008E2E8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB1E838B19A05CD6008E2E8E;
+			remoteInfo = MyKitchenExperiments;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB1045BE19A139E900CC97F3 /* YCRecipeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCRecipeDetailViewController.h; sourceTree = "<group>"; };
+		CB1045BF19A139E900CC97F3 /* YCRecipeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCRecipeDetailViewController.m; sourceTree = "<group>"; };
+		CB1045C119A2912800CC97F3 /* YCWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCWebViewController.h; sourceTree = "<group>"; };
+		CB1045C219A2912800CC97F3 /* YCWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCWebViewController.m; sourceTree = "<group>"; };
+		CB1E838C19A05CD6008E2E8E /* MyKitchenExperiments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyKitchenExperiments.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1E838F19A05CD6008E2E8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB1E839119A05CD6008E2E8E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB1E839319A05CD6008E2E8E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB1E839719A05CD6008E2E8E /* MyKitchenExperiments-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyKitchenExperiments-Info.plist"; sourceTree = "<group>"; };
+		CB1E839919A05CD6008E2E8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB1E839B19A05CD6008E2E8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB1E839D19A05CD6008E2E8E /* MyKitchenExperiments-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyKitchenExperiments-Prefix.pch"; sourceTree = "<group>"; };
+		CB1E839E19A05CD6008E2E8E /* YCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCAppDelegate.h; sourceTree = "<group>"; };
+		CB1E839F19A05CD6008E2E8E /* YCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCAppDelegate.m; sourceTree = "<group>"; };
+		CB1E83A219A05CD6008E2E8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CB1E83A519A05CD6008E2E8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CB1E83A719A05CD6008E2E8E /* YCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCViewController.h; sourceTree = "<group>"; };
+		CB1E83A819A05CD6008E2E8E /* YCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCViewController.m; sourceTree = "<group>"; };
+		CB1E83AA19A05CD6008E2E8E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB1E83B019A05CD6008E2E8E /* MyKitchenExperimentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyKitchenExperimentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1E83B119A05CD6008E2E8E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CB1E83B919A05CD6008E2E8E /* MyKitchenExperimentsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyKitchenExperimentsTests-Info.plist"; sourceTree = "<group>"; };
+		CB1E83BB19A05CD6008E2E8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB1E83BD19A05CD6008E2E8E /* MyKitchenExperimentsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyKitchenExperimentsTests.m; sourceTree = "<group>"; };
+		CB1E83C719A05E16008E2E8E /* YCRecipeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCRecipeTableViewCell.h; sourceTree = "<group>"; };
+		CB1E83C819A05E16008E2E8E /* YCRecipeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCRecipeTableViewCell.m; sourceTree = "<group>"; };
+		CB1E83CA19A12867008E2E8E /* YCRecipeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCRecipeModel.h; sourceTree = "<group>"; };
+		CB1E83CB19A12867008E2E8E /* YCRecipeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCRecipeModel.m; sourceTree = "<group>"; };
+		CB1E83CD19A12930008E2E8E /* YCRecipeCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCRecipeCollection.h; sourceTree = "<group>"; };
+		CB1E83CE19A12930008E2E8E /* YCRecipeCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCRecipeCollection.m; sourceTree = "<group>"; };
+		CB1E83D119A13109008E2E8E /* cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cake.jpg; sourceTree = "<group>"; };
+		CB1E83D219A13109008E2E8E /* pennePasta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pennePasta.jpg; sourceTree = "<group>"; };
+		CB1E83D319A13109008E2E8E /* salad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = salad.jpg; sourceTree = "<group>"; };
+		CB1E83D419A13109008E2E8E /* vegetableSoup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vegetableSoup.jpg; sourceTree = "<group>"; };
+		CB1E83D519A13109008E2E8E /* watermelonLemonade.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = watermelonLemonade.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB1E838919A05CD6008E2E8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1E839219A05CD6008E2E8E /* CoreGraphics.framework in Frameworks */,
+				CB1E839419A05CD6008E2E8E /* UIKit.framework in Frameworks */,
+				CB1E839019A05CD6008E2E8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB1E83AD19A05CD6008E2E8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1E83B219A05CD6008E2E8E /* XCTest.framework in Frameworks */,
+				CB1E83B419A05CD6008E2E8E /* UIKit.framework in Frameworks */,
+				CB1E83B319A05CD6008E2E8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB1E838319A05CD6008E2E8E = {
+			isa = PBXGroup;
+			children = (
+				CB1E839519A05CD6008E2E8E /* MyKitchenExperiments */,
+				CB1E83B719A05CD6008E2E8E /* MyKitchenExperimentsTests */,
+				CB1E838E19A05CD6008E2E8E /* Frameworks */,
+				CB1E838D19A05CD6008E2E8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB1E838D19A05CD6008E2E8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB1E838C19A05CD6008E2E8E /* MyKitchenExperiments.app */,
+				CB1E83B019A05CD6008E2E8E /* MyKitchenExperimentsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB1E838E19A05CD6008E2E8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB1E838F19A05CD6008E2E8E /* Foundation.framework */,
+				CB1E839119A05CD6008E2E8E /* CoreGraphics.framework */,
+				CB1E839319A05CD6008E2E8E /* UIKit.framework */,
+				CB1E83B119A05CD6008E2E8E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB1E839519A05CD6008E2E8E /* MyKitchenExperiments */ = {
+			isa = PBXGroup;
+			children = (
+				CB1E83D019A13109008E2E8E /* Resources */,
+				CB1E839E19A05CD6008E2E8E /* YCAppDelegate.h */,
+				CB1E839F19A05CD6008E2E8E /* YCAppDelegate.m */,
+				CB1E83A119A05CD6008E2E8E /* Main_iPhone.storyboard */,
+				CB1E83A419A05CD6008E2E8E /* Main_iPad.storyboard */,
+				CB1E83A719A05CD6008E2E8E /* YCViewController.h */,
+				CB1E83A819A05CD6008E2E8E /* YCViewController.m */,
+				CB1E83C719A05E16008E2E8E /* YCRecipeTableViewCell.h */,
+				CB1E83C819A05E16008E2E8E /* YCRecipeTableViewCell.m */,
+				CB1E83CD19A12930008E2E8E /* YCRecipeCollection.h */,
+				CB1E83CE19A12930008E2E8E /* YCRecipeCollection.m */,
+				CB1E83CA19A12867008E2E8E /* YCRecipeModel.h */,
+				CB1E83CB19A12867008E2E8E /* YCRecipeModel.m */,
+				CB1E83AA19A05CD6008E2E8E /* Images.xcassets */,
+				CB1E839619A05CD6008E2E8E /* Supporting Files */,
+				CB1045BE19A139E900CC97F3 /* YCRecipeDetailViewController.h */,
+				CB1045BF19A139E900CC97F3 /* YCRecipeDetailViewController.m */,
+				CB1045C119A2912800CC97F3 /* YCWebViewController.h */,
+				CB1045C219A2912800CC97F3 /* YCWebViewController.m */,
+			);
+			path = MyKitchenExperiments;
+			sourceTree = "<group>";
+		};
+		CB1E839619A05CD6008E2E8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB1E839719A05CD6008E2E8E /* MyKitchenExperiments-Info.plist */,
+				CB1E839819A05CD6008E2E8E /* InfoPlist.strings */,
+				CB1E839B19A05CD6008E2E8E /* main.m */,
+				CB1E839D19A05CD6008E2E8E /* MyKitchenExperiments-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB1E83B719A05CD6008E2E8E /* MyKitchenExperimentsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB1E83BD19A05CD6008E2E8E /* MyKitchenExperimentsTests.m */,
+				CB1E83B819A05CD6008E2E8E /* Supporting Files */,
+			);
+			path = MyKitchenExperimentsTests;
+			sourceTree = "<group>";
+		};
+		CB1E83B819A05CD6008E2E8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB1E83B919A05CD6008E2E8E /* MyKitchenExperimentsTests-Info.plist */,
+				CB1E83BA19A05CD6008E2E8E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB1E83D019A13109008E2E8E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CB1E83D119A13109008E2E8E /* cake.jpg */,
+				CB1E83D219A13109008E2E8E /* pennePasta.jpg */,
+				CB1E83D319A13109008E2E8E /* salad.jpg */,
+				CB1E83D419A13109008E2E8E /* vegetableSoup.jpg */,
+				CB1E83D519A13109008E2E8E /* watermelonLemonade.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB1E838B19A05CD6008E2E8E /* MyKitchenExperiments */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB1E83C119A05CD6008E2E8E /* Build configuration list for PBXNativeTarget "MyKitchenExperiments" */;
+			buildPhases = (
+				CB1E838819A05CD6008E2E8E /* Sources */,
+				CB1E838919A05CD6008E2E8E /* Frameworks */,
+				CB1E838A19A05CD6008E2E8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyKitchenExperiments;
+			productName = MyKitchenExperiments;
+			productReference = CB1E838C19A05CD6008E2E8E /* MyKitchenExperiments.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB1E83AF19A05CD6008E2E8E /* MyKitchenExperimentsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB1E83C419A05CD6008E2E8E /* Build configuration list for PBXNativeTarget "MyKitchenExperimentsTests" */;
+			buildPhases = (
+				CB1E83AC19A05CD6008E2E8E /* Sources */,
+				CB1E83AD19A05CD6008E2E8E /* Frameworks */,
+				CB1E83AE19A05CD6008E2E8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB1E83B619A05CD6008E2E8E /* PBXTargetDependency */,
+			);
+			name = MyKitchenExperimentsTests;
+			productName = MyKitchenExperimentsTests;
+			productReference = CB1E83B019A05CD6008E2E8E /* MyKitchenExperimentsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB1E838419A05CD6008E2E8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Yahoo;
+				TargetAttributes = {
+					CB1E83AF19A05CD6008E2E8E = {
+						TestTargetID = CB1E838B19A05CD6008E2E8E;
+					};
+				};
+			};
+			buildConfigurationList = CB1E838719A05CD6008E2E8E /* Build configuration list for PBXProject "MyKitchenExperiments" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB1E838319A05CD6008E2E8E;
+			productRefGroup = CB1E838D19A05CD6008E2E8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB1E838B19A05CD6008E2E8E /* MyKitchenExperiments */,
+				CB1E83AF19A05CD6008E2E8E /* MyKitchenExperimentsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB1E838A19A05CD6008E2E8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1E83A619A05CD6008E2E8E /* Main_iPad.storyboard in Resources */,
+				CB1E83D619A13109008E2E8E /* cake.jpg in Resources */,
+				CB1E83AB19A05CD6008E2E8E /* Images.xcassets in Resources */,
+				CB1E83A319A05CD6008E2E8E /* Main_iPhone.storyboard in Resources */,
+				CB1E83DA19A13109008E2E8E /* watermelonLemonade.jpg in Resources */,
+				CB1E83D819A13109008E2E8E /* salad.jpg in Resources */,
+				CB1E83D719A13109008E2E8E /* pennePasta.jpg in Resources */,
+				CB1E83D919A13109008E2E8E /* vegetableSoup.jpg in Resources */,
+				CB1E839A19A05CD6008E2E8E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB1E83AE19A05CD6008E2E8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1E83BC19A05CD6008E2E8E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB1E838819A05CD6008E2E8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1E83A019A05CD6008E2E8E /* YCAppDelegate.m in Sources */,
+				CB1045C319A2912800CC97F3 /* YCWebViewController.m in Sources */,
+				CB1E83CF19A12930008E2E8E /* YCRecipeCollection.m in Sources */,
+				CB1E83C919A05E16008E2E8E /* YCRecipeTableViewCell.m in Sources */,
+				CB1045C019A139E900CC97F3 /* YCRecipeDetailViewController.m in Sources */,
+				CB1E83CC19A12867008E2E8E /* YCRecipeModel.m in Sources */,
+				CB1E83A919A05CD6008E2E8E /* YCViewController.m in Sources */,
+				CB1E839C19A05CD6008E2E8E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB1E83AC19A05CD6008E2E8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1E83BE19A05CD6008E2E8E /* MyKitchenExperimentsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB1E83B619A05CD6008E2E8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB1E838B19A05CD6008E2E8E /* MyKitchenExperiments */;
+			targetProxy = CB1E83B519A05CD6008E2E8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB1E839819A05CD6008E2E8E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB1E839919A05CD6008E2E8E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB1E83A119A05CD6008E2E8E /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB1E83A219A05CD6008E2E8E /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CB1E83A419A05CD6008E2E8E /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB1E83A519A05CD6008E2E8E /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CB1E83BA19A05CD6008E2E8E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB1E83BB19A05CD6008E2E8E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB1E83BF19A05CD6008E2E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB1E83C019A05CD6008E2E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB1E83C219A05CD6008E2E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyKitchenExperiments/MyKitchenExperiments-Prefix.pch";
+				INFOPLIST_FILE = "MyKitchenExperiments/MyKitchenExperiments-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB1E83C319A05CD6008E2E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyKitchenExperiments/MyKitchenExperiments-Prefix.pch";
+				INFOPLIST_FILE = "MyKitchenExperiments/MyKitchenExperiments-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CB1E83C519A05CD6008E2E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyKitchenExperiments.app/MyKitchenExperiments";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyKitchenExperiments/MyKitchenExperiments-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MyKitchenExperimentsTests/MyKitchenExperimentsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CB1E83C619A05CD6008E2E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyKitchenExperiments.app/MyKitchenExperiments";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyKitchenExperiments/MyKitchenExperiments-Prefix.pch";
+				INFOPLIST_FILE = "MyKitchenExperimentsTests/MyKitchenExperimentsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB1E838719A05CD6008E2E8E /* Build configuration list for PBXProject "MyKitchenExperiments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB1E83BF19A05CD6008E2E8E /* Debug */,
+				CB1E83C019A05CD6008E2E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB1E83C119A05CD6008E2E8E /* Build configuration list for PBXNativeTarget "MyKitchenExperiments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB1E83C219A05CD6008E2E8E /* Debug */,
+				CB1E83C319A05CD6008E2E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB1E83C419A05CD6008E2E8E /* Build configuration list for PBXNativeTarget "MyKitchenExperimentsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB1E83C519A05CD6008E2E8E /* Debug */,
+				CB1E83C619A05CD6008E2E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB1E838419A05CD6008E2E8E /* Project object */;
+}
